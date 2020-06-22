@@ -1,6 +1,6 @@
-FROM alpine:3.7
+FROM alpine:3.12
 
-ENV RUBY_VERSION 2.5.0
+ENV RUBY_VERSION 2.6.3
 
 RUN apk --update add --virtual .build-deps \
     bash \
